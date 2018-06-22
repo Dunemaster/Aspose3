@@ -1,6 +1,3 @@
-/**
- * 
- */
 package ru.aspose3.entities;
 
 /**
