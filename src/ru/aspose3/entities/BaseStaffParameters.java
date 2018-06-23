@@ -5,7 +5,7 @@ package ru.aspose3.entities;
  * @version 1.0
  * Basic parameters of staff.
  */
-public class Staff {
+public class BaseStaffParameters {
   // FIO of Staff
   String fio;
   // First working Date
