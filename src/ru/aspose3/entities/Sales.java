@@ -8,7 +8,7 @@ import java.math.BigDecimal;
  * Additional Parameters of Sales.
  */
 
-public class Sales extends Staff {
+public class Sales extends BaseStaffParameters {
 	  // Percent add to salary for every working year
 	  short percentPerWorkYear = 1;
 	  // Max percent of Base rate add to salary

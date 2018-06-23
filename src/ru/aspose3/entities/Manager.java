@@ -8,13 +8,11 @@ import java.math.BigDecimal;
  * Additional Parameters of Manager.
  */
 
-public class Manager extends Staff {
+public class Manager extends BaseStaffParameters {
   // Percent add to salary for every working year
   short percentPerWorkYear = 5;
   // Max percent of Base rate add to salary
   short maxPercentForBaseRate = 40;
   // Additional add percent to salary for subordinates first level
   BigDecimal percentPerSubordinatesFirstLevel = BigDecimal.valueOf(0.5);
-  // Additional add percent to salary for subordinates first level
-  BigDecimal percentPerSubordinatesOtherLevels = null;
 }
